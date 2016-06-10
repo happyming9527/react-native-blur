@@ -23,6 +23,7 @@
   }
 
   _visualEffectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
+  _visualEffectView.alpha = 1.1f;
 }
 
 -(void)layoutSubviews
